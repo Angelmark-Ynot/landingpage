@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #111;
+    color: white;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text span {
+    color: orange;
+}
+
+.hero-text p {
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
